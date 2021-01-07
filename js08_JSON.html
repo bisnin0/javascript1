@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<script>
+	// JSON : JavaScript Object Notation이다.   
+	// JSON변수 설정 
+	var data = {
+			username:"hong",
+			tel:"010-7896-9999",
+			addr:"서울시 마포구",
+			email:{
+				first_email:"goguma777@nate.com",
+				second_email:"goguma7day@naver.com"
+			}			
+	};
+	document.write("username=" + data.username + "<br/>");
+	document.write("addr="+ data.addr +"<br/>" );
+	document.write("first_email=" + data.email.first_email);
+</script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script>
+	function setMathTest(){
+		var num = 253.654;
+		var r="";
+		
+		r += "Math.PI="+ Math.PI+"<br/>";//pi값
+		r += "Math.pow="+ Math.pow(5, 3)+"<br/>";
+		r += "Math.round="+ Math.round(num)+"<br/>";
+		r += "Math.ceil="+ Math.ceil(num)+"<br/>";
+		r += "Math.floor="+ Math.floor(num)+"<br/>";
+		r += "Math.max=" + Math.max(34,65,75,3232,5346,215,3,665)+"<br/>";
+		r += "Math.min=" + Math.min(3,64,74,2,767,547,765,5454,5454)+"<br/>";
+		r += "Math.random=" + Math.random() +"<br/>";
+		r += "Math.sqrt=" + Math.sqrt(10)+"<br/>";
+		r += "Math.abs=" + Math.abs(-43.43);
+		
+		document.getElementById("result").innerHTML = r;
+	}	
+</script>
+</head>
+<body onload="setMathTest();">
+<div id="result"></div>
+</body>
+</html>
